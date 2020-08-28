@@ -40,11 +40,13 @@ enum JoypadButtonIndex
   Y_BUTTON,
   LEFT_BUMPER,
   RIGHT_BUMPER,
+  LEFT_TRIGGER,
+  RIGHT_TRIGGER,
   BACK,
   START,
-  LOGITECH,
   LEFT_JOYSTICK,
   RIGHT_JOYSTICK,
+  LOGITECH,
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -54,10 +56,10 @@ enum JoypadAxisIndex
 {
   PRIMARY_X,
   PRIMARY_Y,
-  PRIMARY_Z,
   SECONDARY_X,
-  SECONDARY_Y,
   SECONDARY_Z,
+  PRIMARY_Z,
+  SECONDARY_Y,
   DPAD_LEFT_RIGHT,
   DPAD_UP_DOWN,
 };
